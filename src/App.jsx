@@ -10,6 +10,7 @@ import Panel from './components/PanelPagina'
 
 function App() {
   const [count, setCount] = useState(0)
+  console.log ("Renderizando componenete App");
 
   const cabecera =
     [

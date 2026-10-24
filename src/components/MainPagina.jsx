@@ -1,8 +1,15 @@
+import Contador from "./contadorPagina";
+import Saludo from "./SaludoPagina";
 function Main() {
+console.log ("Renderizando componenete Main")
+    
     return (
-        <main id="inicio">
-            <h2>Bienvenidos al portal académico</h2>
+        <>
 
+        <main id="inicio">
+        <Saludo></Saludo>
+        <Contador></Contador>
+            <h2>Bienvenidos al portal académico</h2>
             <p>
                 Encuentra información sobre nuestros cursos,
                 actividades académicas y oportunidades de aprendizaje.
@@ -27,6 +34,8 @@ function Main() {
                 </article>
             </section>
         </main>
+
+        </>
     )
 }
 
