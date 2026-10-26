@@ -6,6 +6,8 @@ import Main from './components/MainPagina'
 import Aside from './components/AsidePagina'
 import Footer from './components/FooterPagina'
 import Panel from './components/PanelPagina'
+import ListaCursos from './components/ListaCursos'
+import CursoApp from './components/FuncionCallback'
 
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
     <>
       <Header cabecera={cabecera}></Header>
       <Nav></Nav>
+      <ListaCursos></ListaCursos>
+      <CursoApp></CursoApp>
       <Main></Main>
       <Panel titulo="Aviso académico">
         <p>Revisar las fechas de evaluación.</p>
