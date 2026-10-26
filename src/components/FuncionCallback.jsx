@@ -16,7 +16,7 @@ function CursoApp() {
     const [curso, setCurso] = useState('Ninguno');
     useEffect(()=>{
         document.title = curso;
-    },);
+    },[curso]);
     return (
         <>
         <section>
