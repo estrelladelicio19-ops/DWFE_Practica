@@ -8,6 +8,7 @@ import Footer from './components/FooterPagina'
 import Panel from './components/PanelPagina'
 import ListaCursos from './components/ListaCursos'
 import CursoApp from './components/FuncionCallback'
+import Formulario from './components/FormularioPagina'
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
     <>
       <Header cabecera={cabecera}></Header>
       <Nav></Nav>
+      <Formulario></Formulario>
       <ListaCursos></ListaCursos>
       <CursoApp></CursoApp>
       <Main></Main>
